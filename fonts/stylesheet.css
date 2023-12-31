@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Big John';
+    src: url('BigJohn.woff2') format('woff2'),
+        url('BigJohn.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

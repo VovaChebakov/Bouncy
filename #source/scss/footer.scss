@@ -1,0 +1,44 @@
+.footer {
+	text-align: center;
+	position: relative;
+	padding: 170px 0px 90px 0px;
+	margin: 100px 0px 0px 0px;
+	// .footer__title
+	&__title {
+		font-family: 'Big John';
+		font-size: 25px;
+		line-height: 12px;
+		color: #323a45;
+		margin: 0px 0px 25px 0px;
+	}
+	// .footer__rights
+	&__rights {
+		line-height: 25px;
+		letter-spacing: 0.05em;
+		color: #81868e;
+		margin: 0px 0px 35px 0px;
+	}
+	// .footer__icons
+	&__icons {
+		img {
+			padding: 5px;
+			border-radius: 50%;
+			width: 26px;
+			height: 26px;
+			background-color: #3b5998;
+			margin: 0px 10px 0px 0px;
+			&:nth-child(2) {
+				background-color: #26a6d1;
+			}
+			&:nth-child(3) {
+				background-color: #0e76a8;
+			}
+			&:nth-child(4) {
+				background-color: #0e76a8;
+			}
+			&:nth-child(5) {
+				background-color: #26a6d1;
+			}
+		}
+	}
+}
